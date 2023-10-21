@@ -1,0 +1,140 @@
+/* Estilos del fondo para el modo Ligth */
+body.light {
+  background-image: url('imagenEscritorioLigth.gif'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #1e1e47;
+  text-align: center;
+  margin:  0 100px;
+  padding: 0;
+}
+
+
+/* Estilos del fondo para el modo Dark */
+body.dark {
+  background-image: url('imagenEscritorio.gif'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffcc00;
+  text-align: center;
+  margin:  0 100px;
+  padding: 0;
+}
+
+.title{
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 54px;
+}
+
+.calculator {
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  border: 15px solid #000;
+  border-radius: 10px;
+}
+
+/* Estilos para la pantalla de la calculadora */
+.display {
+  min-width: 390px;
+  min-height: 40px; 
+  background-color: #222;
+  font-size: 56px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+/* Estilos para los botones */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  background-color: #222;
+  border: 5px solid #000;
+  border-radius: 10px;
+}
+
+button {
+  font-family: 'Pixelify Sans', sans-serif;
+  background-color: #444;
+  color: #fff;
+  font-size: 24px;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #ff00ff;
+}
+.clear{
+  background-color: #1e1e47;
+}
+.calculate {
+  background-color: #ffcc00;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  body.light {
+    background-image: url('imagenCelularLigth.gif'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #1e1e47;
+    text-align: center;
+    margin:  0 100px;
+    padding: 0;
+  }
+  
+
+  body.dark {
+    background-image: url('imagenCelular.gif'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffcc00;
+    text-align: center;
+    margin:  0 100px;
+    padding: 0;
+  }
+  .calculator {
+    min-width: 200px;
+    padding: 5px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .display {
+    font-size: 18px;
+    min-width: 180px;
+  }
+
+  .buttons {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 5px;
+  }
+}
