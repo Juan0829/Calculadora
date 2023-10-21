@@ -1,3 +1,16 @@
+/* Estilos del fondo pincipal */
+body {
+  background-image: url('imagenEscritorioLigth.gif'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #1e1e47;
+  text-align: center;
+  margin:  0 100px;
+  padding: 0;
+}
+
 /* Estilos del fondo para el modo Ligth */
 body.light {
   background-image: url('imagenEscritorioLigth.gif'); 
