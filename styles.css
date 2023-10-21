@@ -1,18 +1,5 @@
-/* Estilos del fondo pincipal */
-body {
-  background-image: url('imagenEscritorioLigth.gif'); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  color: #1e1e47;
-  text-align: center;
-  margin:  0 100px;
-  padding: 0;
-}
-
 /* Estilos del fondo para el modo Ligth */
-body.light {
+body {
   background-image: url('imagenEscritorioLigth.gif'); 
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,7 +35,7 @@ body.dark {
   margin: 0 auto;
   padding: 20px;
   background-color: #333;
-  border: 15px solid #000;
+  border: px solid #000;
   border-radius: 10px;
 }
 
@@ -103,7 +90,7 @@ button:hover {
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
-  body.light {
+  body {
     background-image: url('imagenCelularLigth.gif'); 
     background-size: cover;
     background-repeat: no-repeat;

@@ -24,7 +24,7 @@ let currentInput = "";
             display.value = 'error'; /* en caso de que el usuario haga alguna operacion erronea muestra un mensaje de error */
             }
     }   
-/* funcion boton cambio de modo body  */
+/* funcion boton cambio de modo */
     function setLightMode() {
         document.body.classList.remove("dark");
         document.body.classList.add("light");
